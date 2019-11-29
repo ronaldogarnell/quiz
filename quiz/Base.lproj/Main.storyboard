@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4T-vS-xSP">
+                                <rect key="frame" x="0.0" y="35" width="57" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="pdk-bD-1Fx">
+                                <rect key="frame" x="157" y="35" width="75" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="weQ-UF-tUN">
+                                <rect key="frame" x="30" y="161" width="354" height="613"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.how many planets are there in the solar system " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hei-Uq-6aZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="83.333333333333329"/>
+                                        <color key="backgroundColor" red="0.0" green="0.66524162944301457" blue="0.91013330221176147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJc-Ps-dgM">
+                                        <rect key="frame" x="0.0" y="118" width="354" height="80"/>
+                                        <color key="backgroundColor" red="0.73060156579091518" green="0.75012143782383423" blue="0.74216026278469682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="42"/>
+                                        <state key="normal" title="A.10">
+                                            <color key="titleColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XdZ-12-YPi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsT-T7-Rzh">
+                                        <rect key="frame" x="0.0" y="232.33333333333331" width="354" height="80"/>
+                                        <color key="backgroundColor" red="0.9580056528576204" green="1" blue="0.52396609489227097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="42"/>
+                                        <state key="normal" title="B.8">
+                                            <color key="titleColor" red="0.52531046447358598" green="0.46099547904091498" blue="0.365489598748649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fMt-ML-obn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Uu-f5-oxS">
+                                        <rect key="frame" x="0.0" y="347" width="354" height="80"/>
+                                        <color key="backgroundColor" red="0.78763877771923219" green="0.93758927892920441" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="42"/>
+                                        <state key="normal" title="C.7">
+                                            <color key="titleColor" red="0.80749493837356567" green="0.6670716404914856" blue="0.32225549221038818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8MP-Pc-rU5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPz-fV-rGN">
+                                        <rect key="frame" x="0.0" y="461.33333333333337" width="354" height="80"/>
+                                        <color key="backgroundColor" red="1" green="0.46654504803286478" blue="0.35147572232930246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="42"/>
+                                        <state key="normal" title="D.i don’t know">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zgT-ZO-f9S"/>
+                                        </connections>
+                                    </button>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="CIJ-Ns-COG">
+                                        <rect key="frame" x="0.0" y="576" width="354" height="37"/>
+                                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </pageControl>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Yr-ib-bXK">
+                                <rect key="frame" x="49" y="35" width="57" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="zoA-WU-ip5">
+                                <rect key="frame" x="92" y="35" width="57" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mz-eq-6LL">
+                                <rect key="frame" x="253" y="35" width="141" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.91198873519897461" blue="0.30554913772098191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tap Anywhere To Contine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeF-35-Iws">
+                                <rect key="frame" x="10" y="112" width="394" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85192505943809005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="weQ-UF-tUN" firstAttribute="top" relation="lessThanOrEqual" secondItem="5Mz-eq-6LL" secondAttribute="bottom" constant="75.329999999999998" id="CTI-mn-o88"/>
+                            <constraint firstItem="5Mz-eq-6LL" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="I4h-Bp-81D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="weQ-UF-tUN" secondAttribute="bottom" constant="34" id="IVq-C6-O7S"/>
+                            <constraint firstItem="BeF-35-Iws" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="KeJ-bT-07G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Mz-eq-6LL" secondAttribute="trailing" constant="20" id="dWa-7g-iRg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="weQ-UF-tUN" secondAttribute="trailing" constant="30" id="glx-QV-muy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BeF-35-Iws" secondAttribute="trailing" constant="10" id="rEM-NE-17A"/>
+                            <constraint firstItem="weQ-UF-tUN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="wFW-Er-QwY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="xAf-1A-hD6" appends="YES" id="GQB-wX-kIJ"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="buttonA" destination="SJc-Ps-dgM" id="zoA-Yx-YF3"/>
+                        <outlet property="buttonB" destination="wsT-T7-Rzh" id="Gmk-86-19Q"/>
+                        <outlet property="buttonC" destination="7Uu-f5-oxS" id="V7k-tK-tC7"/>
+                        <outlet property="buttonD" destination="YPz-fV-rGN" id="fvr-hS-26g"/>
+                        <outlet property="contineLabel" destination="BeF-35-Iws" id="E4s-ZI-zwT"/>
+                        <outlet property="heart1" destination="zoA-WU-ip5" id="wrH-mo-caR"/>
+                        <outlet property="heart2" destination="8Yr-ib-bXK" id="MvP-Ru-6ll"/>
+                        <outlet property="heart3" destination="u4T-vS-xSP" id="2jY-Mk-83J"/>
+                        <outlet property="questionLabel" destination="Hei-Uq-6aZ" id="fo2-6s-nRY"/>
+                        <outlet property="tapGesture" destination="xAf-1A-hD6" id="Il2-Wt-7dl"/>
+                        <outlet property="timerLabel" destination="5Mz-eq-6LL" id="fgj-o6-O6l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="xAf-1A-hD6">
+                    <connections>
+                        <action selector="tapToContine:" destination="BYZ-38-t0r" id="Y9y-ep-0M1"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="107.14285714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nFm-8f-3ZT">
+            <objects>
+                <viewController id="EkS-2L-iFB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="44X-eD-ehE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="jp9-jl-Ga5">
+                                <rect key="frame" x="20" y="44" width="97" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXG-lA-s3x">
+                                <rect key="frame" x="114" y="44" width="97" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUP-My-b1o">
+                                <rect key="frame" x="134" y="713" width="101" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="return"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="N9b-aH-JpV"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MC_Heart.png" translatesAutoresizingMaskIntoConstraints="NO" id="pak-3j-GYS">
+                                <rect key="frame" x="204" y="44" width="97" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="you have xxx lives and xx.x seconds left well done" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnH-VF-zPd">
+                                <rect key="frame" x="0.0" y="122" width="374" height="557"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="8.2139638834632933e-05" green="0.99625474214553833" blue="0.81082826852798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="HIk-w9-nEy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZe-Tc-OKB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862.31884057971024" y="-49.553571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MC_Heart.png" width="200" height="200"/>
+        <image name="clock.jpeg" width="75" height="75"/>
+    </resources>
+</document>
